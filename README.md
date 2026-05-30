@@ -2,6 +2,18 @@
 
 A Node.js microservices application fully containerized with Docker and orchestrated via Docker Compose.
 
+<<<<<<< HEAD
+=======
+---
+
+##  Architecture Overview
+
+![Architecture Overview](screenshots/microservices_user_request_flow.svg)
+
+
+
+---
+>>>>>>> 5197b2f (Update project files)
 
 
 ###  User Service — Port 3000
