@@ -2,22 +2,6 @@
 
 A Node.js microservices application fully containerized with Docker and orchestrated via Docker Compose.
 
----
-
-##  Architecture Overview
-
-```
-                         ┌─────────────────────────────────────────┐
-                         │          microservices-network           │
-                         │  (shared Docker bridge network)          │
-                         │                                          │
-  Client ──▶ port 3003 ──┼──▶ gateway-service ──▶ user-service    │
-                         │                    ├──▶ product-service  │
-                         │                    └──▶ order-service    │
-                         └─────────────────────────────────────────┘
-```
-
----
 
 
 ###  User Service — Port 3000
